@@ -2,7 +2,7 @@
 
 ### Considerações
 
-A URL das imagens, tanto aqui do git quanto a que esta na prova, não estão em funcionamento, alterei o link de ambas.
+As URLs das imagens, tanto aqui do git quanto a que esta na prova, não estão em funcionamento, alterei o link de ambas.
 
 Agradeço a oportunidade, aguardarei um feedback.
 
