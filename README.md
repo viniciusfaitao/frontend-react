@@ -1,4 +1,10 @@
-# Frontend <img src="https://www.moovin.com.br/assets/images/svg/logo2.svg" width="50">
+# Frontend <img src="https://www.moovin.com.br/wp-content/uploads/2020/12/logo-roda.png" width="50">
+
+### Considerações
+
+A URL das imagens, tanto aqui do git quanto a que esta na prova, não estão em funcionamento, alterei o link de ambas.
+
+Agradeço a oportunidade, aguardarei um feedback.
 
 ### Desafio
 
