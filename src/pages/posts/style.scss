@@ -1,0 +1,98 @@
+.page-head {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 90px;
+    height: 21px;
+  }
+}
+
+.page-body {
+  background-color: #f0efef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .body-box {
+    width: 100%;
+    margin: 25px;
+    padding: 0 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+
+    h3 {
+      font-family: "OpenSansSemiBold";
+      padding: 10px;
+    }
+  }
+
+  .body-posts {
+    overflow-x: hidden;
+
+    .posts-head {
+      .MuiTableCell-head {
+        height: 47px;
+        background-color: #f0efef;
+        font-family: "OpenSansBold";
+        line-height: 0;
+        padding: 0 30px;
+        font-size: 15px;
+      }
+    }
+
+    .posts-content {
+      height: 60px;
+      border: 0.1px solid #efeeee;
+
+      .MuiTableCell-body {
+        font-family: "OpenSansRegular";
+        font-size: 14px;
+        padding: 0 40px;
+      }
+
+      .content-title {
+        width: 230px;
+        max-width: 230px;
+        padding-right: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .content-body {
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .posts-pagination {
+      margin: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-family: "OpenSansRegular";
+        font-size: 13px;
+      }
+
+      button {
+        font-family: "OpenSansExtraBold";
+        font-size: 15px;
+        border: none;
+      }
+
+      .Mui-selected {
+        border: 2px solid #a3a3a3;
+        background-color: #fff;
+      }
+    }
+  }
+}

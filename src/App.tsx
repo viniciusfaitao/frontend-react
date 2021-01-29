@@ -1,15 +1,17 @@
-import React from 'react'
-import './App.scss'
+import React from "react";
+import "./App.scss";
+import { PageContextProvider } from "./contexts/pageContext";
+import { PostsContextProvider } from "./contexts/postsContext/index";
+import { Posts } from "./pages/posts";
 
 const App: React.FC = () => {
-	const logoMoovin =
-		'https://cdn.moovin.com.br/project/manager-panel/img/logo-moovin.svg'
+  return (
+    <PageContextProvider>
+      <PostsContextProvider>
+        <Posts />
+      </PostsContextProvider>
+    </PageContextProvider>
+  );
+};
 
-	return (
-		<div className='App'>
-			<img alt='Logo da Moovin' src={logoMoovin} />
-		</div>
-	)
-}
-
-export default App
+export default App;
