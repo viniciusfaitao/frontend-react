@@ -20,10 +20,11 @@ export const PostsContextProvider = (props) => {
   };
 
   useEffect(() => {
-    if (posts <= 0) {
+    if (page !== actualPage) {
       actualPage = page;
       fetchData();
-    } else if (page !== actualPage) {
+    }
+    if (posts <= 0) {
       actualPage = page;
       fetchData();
     }
